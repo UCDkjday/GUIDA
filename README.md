@@ -1,4 +1,4 @@
-# GUIDA — *Graphical User Interface for Data Analysis*
+# [DRAFT] GUIDA — *Graphical User Interface for Data Analysis*
 
 > **One‑liner:** A Python GUI for exploring and analyzing large electrophysiology datasets in the NIH‑compliant NWB format — with pipelines for PSD and PAC, rich plotting, and reproducible, shareable outputs.
 
@@ -40,12 +40,6 @@ The tool enables:
 - Programmers to extend pipelines in a modular way.
 - Research groups to exchange data and results using a consistent, open standard (NWB).
 
-## Why GUIDA?
-
-- **Longevity:** Encodes lab conventions in a user‑friendly tool so datasets remain analyzable years later.
-- **Reproducibility:** Every figure/report captures parameters and metadata used to generate it.
-- **Interoperability:** Uses NWB so other researchers can reproduce results with different software.
-
 ## Features
 
 - **NCS → NWB conversion** for Neuralynx recordings (aggregates 64‑channel sessions; inserts key metadata such as rat IDs and voltage scaling ratios).
@@ -55,18 +49,6 @@ The tool enables:
 - **PAC pipeline** (MNE preprocessing + TensorPAC): comodulograms with optional preprocessing and algorithm choices; reports peak phase/amplitude frequencies, SNR, and z‑score trends.
 - **Figure export** to **PNG / PDF / SVG / EPS** with customizable size, DPI, color palettes, axes limits, opacity, filenames, and output locations.
 - **Reports** capturing parameters, algorithm progression, and numerical results for candidate biomarkers.
-
-> **Note:** Phase coherence between electrodes is in scope conceptually but not analyzed in this thesis release.
-
-## Frequency Bands
-
-| Band       | Range (Hz) |
-| ---------- | ---------- |
-| Delta      | 1–4        |
-| Theta      | 4–12       |
-| Beta       | 12–30      |
-| Gamma      | 30–80      |
-| High Gamma | 80–200     |
 
 ## Screenshots
 
@@ -177,22 +159,12 @@ python -m guida
 
 ## Citing / References
 
-If you use GUIDA in academic work, please cite:
-
 > **Your Thesis** — *Title, Institution, Year.*\
 > Author: *Your Name*.\
 > (Replace this block with your finalized citation.)
 
 Key libraries used: **PyNWB**, **MNE**, **SciPy**, **TensorPAC**, **Matplotlib**, **DearPyGui**.\
-Welch PSD: *Welch, P. D. (1967). The use of fast Fourier transform for the estimation of power spectra.*
 
-## Contributing
-
-Contributions are welcome! Please open an issue to discuss changes. Typical flow:
-
-1. Fork the repo & create a feature branch.
-2. Add tests and docs where applicable.
-3. Open a pull request describing motivation and changes.
 
 ## License
 
