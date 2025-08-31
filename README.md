@@ -9,9 +9,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Why GUIDA?](#why-guida)
 - [Features](#features)
-- [Frequency Bands](#frequency-bands)
 - [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
