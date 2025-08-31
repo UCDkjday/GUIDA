@@ -1,4 +1,4 @@
-# [Active development; interfaces may change; binaries coming later] 
+# [WIP - Active development; interfaces may change; binaries coming later] 
 
 # GUIDA — *Graphical User Interface for Data Analysis*
 
