@@ -1,4 +1,6 @@
-# [DRAFT] GUIDA — *Graphical User Interface for Data Analysis*
+# [Active development; interfaces may change; binaries coming later] 
+
+# GUIDA — *Graphical User Interface for Data Analysis*
 
 > **One‑liner:** A Python GUI for exploring and analyzing large electrophysiology datasets in the NIH‑compliant NWB format — with pipelines for PSD and PAC, rich plotting, and reproducible, shareable outputs.
 
